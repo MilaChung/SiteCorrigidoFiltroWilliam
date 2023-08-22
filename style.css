@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(0, 200, 255) !important;
+}
+.Headers{
+    color:white !important;
+}
+
+/*Tirei o simbolo de id pois queremos estilizar o canvas criado pelo P5.js*/
+canvas{
+    border:3px double rgb(0, 150, 255);
+    width:450px;
+    height:350px;
+}
+.copy_right_footer{
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    font-size:20px;
+    background-color:rgb(255, 0, 0) !important;
+    color:rgb(0, 255, 0) !important;
+    line-height:3;
+    text-align:center;
+}
